@@ -82,8 +82,12 @@
                             i]
                         .md5 + "' target='_blank'>" + info[i].title + "</a></td>").appendTo(str);
 
+
+
                     // Artist
                     $("<td width='20%'>" + info[i].artist + "</td>").appendTo(str);
+
+
 
                     // Notes
                     $("<td width='5%'>" + info[i].notes + "</td>").appendTo(str);
@@ -98,6 +102,8 @@
                     $("<td width='25%'>" + info[i].comment + "</td>").appendTo(str);
                     str.appendTo(obj);
                     count++;
+
+
 
                 }
                 $("</tbody>").appendTo(obj);
